@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  python-app-dev:
+    build:
+      context: ./python/build
+    container_name: python-app-dev
+    volumes:
+      - ./python/app:/root/opt
+    restart: always
+    tty: true
+
