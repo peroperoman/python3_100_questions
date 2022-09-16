@@ -1,5 +1,3 @@
-def init():
-    print('chinko')
-
-if __name__ == '__main__':
-    init()
+nums = [1, 5, 3, 2, 4]
+res = max(nums)
+print(f'リスト内の最大値 : {res}')

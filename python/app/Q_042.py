@@ -1,5 +1,6 @@
-def init():
-    print('chinko')
-
-if __name__ == '__main__':
-    init()
+l = [1, 2, 3, 3]
+# l = [1, 2, 3]
+if len(l) == len(set(l)):
+    print('重複する値がありません。')
+else:
+    print('重複している値があります。')

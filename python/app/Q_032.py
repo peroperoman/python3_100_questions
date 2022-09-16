@@ -1,5 +1,3 @@
-def init():
-    print('chinko')
-
-if __name__ == '__main__':
-    init()
+words = ['Python', 'Ruby', 'PHP', 'JavaScript']
+ans = sorted(words, key=len)
+print(f'短い順に並び替えたリスト : {ans}')
