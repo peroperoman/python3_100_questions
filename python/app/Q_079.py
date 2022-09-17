@@ -1,5 +1,7 @@
-def init():
-    print('chinko')
-
-if __name__ == '__main__':
-    init()
+# d = []
+d = {}
+# d = {'A': 111}
+if d == {}:
+    print('空の辞書です')
+else:
+    print(d)

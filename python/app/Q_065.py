@@ -1,5 +1,8 @@
-def init():
-    print('chinko')
+d1 = {'A': 111, 'B': 222, 'C': 333}
+d2 = {'A': 111, 'B': 222, 'C': 333}
 
-if __name__ == '__main__':
-    init()
+d1.update({"D": 444})
+d2["D"] = 444
+
+print(f'1つ目のパターン : {d1}')
+print(f'2つ目のパターン : {d2}')

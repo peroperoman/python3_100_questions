@@ -1,5 +1,5 @@
-def init():
-    print('chinko')
+d = {'A': 111, 'B': 222, 'C': 333}
+l = ['B', 'C', 'D', 'A']
 
-if __name__ == '__main__':
-    init()
+for k in l:
+        print(f'{k}に対応するValue : {d.get(k)}')

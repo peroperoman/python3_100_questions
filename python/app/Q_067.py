@@ -1,5 +1,5 @@
-def init():
-    print('chinko')
-
-if __name__ == '__main__':
-    init()
+d1 = {'A': 111, 'B': 222, 'C': 333}
+d2 = {'D': 444, 'E': 555}
+d3 = {'F': 666}
+ans = {**d1, **d2, **d3}
+print(f'連結した辞書 : {ans}')
