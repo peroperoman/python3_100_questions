@@ -1,5 +1,3 @@
-def init():
-    print('chinko')
-
-if __name__ == '__main__':
-    init()
+l = [False, True, False, False, True]
+ans = len(l) - sum(l)
+print(f'Falseの数 : {ans}')
