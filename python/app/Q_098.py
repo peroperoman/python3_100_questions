@@ -1,5 +1,3 @@
-def init():
-    print('chinko')
-
-if __name__ == '__main__':
-    init()
+s = 'Every day when I go home, I study programming.'
+ans = s.split(', ')
+print(f'分割したリスト : {ans}')

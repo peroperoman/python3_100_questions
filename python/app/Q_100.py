@@ -1,5 +1,3 @@
-def init():
-    print('chinko')
-
-if __name__ == '__main__':
-    init()
+methods = dir(list)
+ans = [method for method in methods if not method.startswith('__')]
+print(f'リストで使えるメゾット一覧:\n {ans}')
